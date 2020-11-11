@@ -1,3 +1,7 @@
+**Pls just use make -j instead of the complicated string that was before**
+
+
+
 **Due to intel_pstate poor performances as of late, I have decided to set it to passive mode to make use of the acpi_cpufreq governors passthrough, keeping full support for turbo frequencies.**
 
 ## Nvidia prop drivers might need to be patched if they aren't supporting your chosen kernel OOTB (https://github.com/Frogging-Family/nvidia-all can do that automatically for you)

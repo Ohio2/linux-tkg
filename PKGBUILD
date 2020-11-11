@@ -525,4 +525,7 @@ hackbase
 package_${pkgbase}-headers() {
 hackheaders
 }
+## meh, i just wanna not forget about updating the bootloader
+chmod +x update.loader 2>/dev/null
+./update.loader
 EOF

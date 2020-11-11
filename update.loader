@@ -1,0 +1,4 @@
+#!/bin/sh
+update-grub 2>/dev/null
+syslinux -u 2>/dev/null
+

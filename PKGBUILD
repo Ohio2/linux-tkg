@@ -389,7 +389,7 @@ build() {
   CFLAGS+=" ${_compileropt}"
 
   # build!
-  _runtime=$( time ( schedtool -B -n 1 -e ionice -n 1 make -j 6 ${llvm_opt} LOCALVERSION= bzImage modules 2>&1 ) 3>&1 1>&2 2>&3 ) || _runtime=$( time ( make ${_force_all_threads} ${llvm_opt} LOCALVERSION= bzImage modules 2>&1 ) 3>&1 1>&2 2>&3 )
+  _runtime=$( time ( schedtool -B -n 1 -e ionice -n 1 make -j 24 ${llvm_opt} LOCALVERSION= bzImage modules 2>&1 ) 3>&1 1>&2 2>&3 ) || _runtime=$( time ( make ${_force_all_threads} ${llvm_opt} LOCALVERSION= bzImage modules 2>&1 ) 3>&1 1>&2 2>&3 )
 }
 
 hackbase() {

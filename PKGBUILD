@@ -4,6 +4,7 @@
 
 # Contributor: Tk-Glitch <ti3nou at gmail dot com>
 # Contributor: Hyper-KVM <hyperkvmx86 at gmail dot com>
+# Contributor: Ohio2 (Maksymilian Sęk) <ohio2 dot mail at zohomail dot eu>
 
 plain '       .---.`               `.---.'
 plain '    `/syhhhyso-           -osyhhhys/`'
